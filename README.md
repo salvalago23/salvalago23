@@ -51,7 +51,6 @@ My background bridges software and hardware: from writing Arduino firmware for m
 
 | Project | Description | Stack |
 |---|---|---|
-| [GPS Sensor Fusion](https://github.com/salvalago23/gps_quanvia) | Arduino firmware collecting 5 sensors (IMU, GPS, magnetometer, barometer) + LSTM/GRU models + Kalman filter for GPS-denied geolocation. Real hardware, own collected data. | Arduino · TensorFlow · Kalman |
 | [Gesture Robot Control](https://github.com/salvalago23/gesture-robot-control) | Hand gesture UI via IP camera controls a ROS robot: manual, automatic route, freestyle and draw-route modes. Multi-threaded with TFLite classifier. | Python · MediaPipe · ROS |
 | [Mecanum Robot Simulator](https://github.com/salvalago23/mecanum-robot) | Inverse kinematics and proportional controller for an omnidirectional Mecanum-wheeled robot with real-time Matplotlib animation. | Python · NumPy |
 | [Drone Autopilot PD](https://github.com/salvalago23/drone-autopilot-pd) | Full quadrotor dynamics model (rotation matrices, Euler rates, rotor forces) with nested PD loops for position and attitude control. | Python · NumPy |
